@@ -10,7 +10,7 @@
 }
 
 
-/*Way for children to automatically clear*/
+/* Way for children to automatically clear */
 .clearfix::after {
 	content: "";
 	clear: both;
@@ -90,7 +90,7 @@ p {
 .landingWrapper {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 ul {
 	list-style: none;
@@ -98,7 +98,6 @@ ul {
 	line-height: 30px;
 }
 .landingL {
-	margin-top: 4em;
 }
 .scroll {
 	position: absolute;
@@ -106,6 +105,10 @@ ul {
 	left: 0;
 	right: 0;
 	margin: auto;
+}
+.faceimg {
+    border-radius: 45%;
+    width: 80%;
 }
 
 /*------- Skills --------*/
@@ -155,7 +158,7 @@ ul {
 }
 
 /*------- Work 02 --------*/
-.work {
+.work2 {
 	width: 100%;
 	position: relative;
 	margin-bottom: 20em;
