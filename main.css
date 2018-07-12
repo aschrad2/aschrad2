@@ -256,7 +256,7 @@ a {
 .work {
 	width: 100%;
 	position: relative;
-	margin-bottom: 20em;
+	margin-bottom: 5em;
 }
 .work > .workText {
 	position: absolute;
@@ -289,7 +289,7 @@ a {
 .work2 {
 	width: 100%;
 	position: relative;
-	margin-bottom: 20em;
+	margin-bottom: 5em;
 }
 .work2 > .workText {
 	position: absolute;
@@ -324,17 +324,15 @@ a {
 	color: #17191A;
 }
 
-/*------- Footer --------*/
-.footer {
+/*------- More Projects --------*/
+.more-projects {
 	background-image: url(images/Dribbble_Blue_Large.png);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: 320px;
 	padding-bottom: 7em;
 	text-align: center;
-}
-.footer a {
-	color: #027BFF;
+    color: #027BFF;
 	text-decoration: none;
 }
 .underlineSmall {
@@ -344,3 +342,42 @@ a {
 	margin: 5px auto 0 auto;
 	background-color: #027BFF;
 }
+
+
+/*------- More Projects --------*/
+.footer {
+    display: block;
+}
+
+.sticky footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+}
+h6, .h6 {
+    font-size: .75rem;
+}
+.gray, .mid-gray {
+    color: #aaa;
+}
+.border-top {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(0,0,0,.125);
+}
+
+.px2 {
+    text-align: right;
+    vertical-align: middle;
+}
+.px3 {
+    text-align: center;
+    vertical-align: middle;
+}
+
