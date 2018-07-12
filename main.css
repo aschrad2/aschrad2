@@ -141,10 +141,6 @@ button, .button {
     vertical-align: middle;
     -webkit-appearance: none;
 }
-.list-reset
-
-
-
 
 
 /*-------- Landing --------*/
@@ -166,7 +162,7 @@ ul {
 }
 .scroll {
 	position: absolute;
-	bottom: 150px;
+	bottom: 120px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -235,6 +231,8 @@ a {
 .skills {
 	text-align: center;
 	margin-bottom: 20em;
+    margin-top: -100px;
+    margin-bottom: 80px;
 }
 .skills p {
 	margin-bottom: 30px;
@@ -245,6 +243,16 @@ a {
 }
 
 /*------- Work 01 --------*/
+.project-head {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.project-title {
+    text-align: left;
+    float: left;
+    margin-bottom: 5px;
+}
+
 .work {
 	width: 100%;
 	position: relative;
@@ -262,7 +270,7 @@ a {
 	margin-top: 5px;
 }
 .work > .workImg {
-	width: 85%;
+	width: 65%;
 	float: right;
 	-webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
 	-moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
@@ -286,8 +294,6 @@ a {
 .work2 > .workText {
 	position: absolute;
 	top: 85;
-	right: 0;
-	text-align: right;
 }
 .work2 > .workText > .underline {
 	display: block;
@@ -295,11 +301,10 @@ a {
 	height: 3px;
 	width: 61px;
 	margin-top: 5px;
-	float: right;
 }
 .work2 > .workImg {
-	width: 85%;
-	float: left;
+	width: 65%;
+	float: right;
 	-webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
 	-moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
 	box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
