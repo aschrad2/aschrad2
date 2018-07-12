@@ -101,7 +101,7 @@ ul {
 }
 .scroll {
 	position: absolute;
-	bottom: 180px;
+	bottom: 190px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -110,6 +110,7 @@ ul {
     border-radius: 45%;
     width: 80%;
 }
+
 
 /*------- Skills --------*/
 .skills {
@@ -120,7 +121,7 @@ ul {
 	margin-bottom: 30px;
 }
 .skills img {
-	width: 40px;
+	width: 400px;
 	margin: 0 15px;
 }
 
