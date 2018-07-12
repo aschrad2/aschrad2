@@ -82,9 +82,10 @@ p {
 	margin-right: 10px;
 }
 
+
 /*-------- Landing --------*/
 .landing {
-	height: 100vh;
+	height: 90vh;
 	position: relative;
 }
 .landingWrapper {
@@ -110,6 +111,12 @@ ul {
     border-radius: 45%;
     width: 80%;
 }
+
+.fab {
+    color: blue;
+    font-size: 2em;
+}
+
 
 
 /*------- Skills --------*/
