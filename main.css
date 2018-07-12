@@ -112,10 +112,49 @@ ul {
     width: 80%;
 }
 
-.fab {
-    color: blue;
-    font-size: 2em;
+.fa-github-square {
+    color: #027BFF;
+    font-size: 3em;
+    text-align: center;
 }
+
+
+.fa-facebook {
+    color: #027BFF;
+    font-size: 3em;
+    text-align: center;
+}
+
+.fa-linkedin {
+    color: #027BFF;
+    font-size: 3em;
+    text-align: center;
+}
+
+.fa-envelope-square {
+    color: #027BFF;
+    font-size: 3em;
+    text-align: center;
+}
+
+a:hover, a h5:hover {
+    text-decoration: none;
+    color: #007199
+}
+
+a {
+    text-decoration: none;
+}
+
+.valign-middle {
+    vertical-align: middle;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+
 
 
 
