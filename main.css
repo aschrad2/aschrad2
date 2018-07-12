@@ -47,6 +47,9 @@ h5 {
 	margin-top: 10px;
 	color: #17191A;
 }
+h6, .h6 {
+    font-size: .75rem;
+}
 p {
 	color: #8F9EA5;
 	opacity: 0.8;
@@ -81,6 +84,67 @@ p {
 .contactMe img {
 	margin-right: 10px;
 }
+.nav-button {
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+
+.button-transparent:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border: 1px solid transparent;
+    background-color: currentcolor;
+    transition-duration: .1s;
+    transition-timing-function: ease-out;
+    transition-property: opacity;
+    opacity: 0;
+}
+.button:after, button:before, .button:after, .button:before {
+    box-sizing: border-box;
+}
+.button-transparent {
+    position: relative;
+    z-index: 2;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid transparent;
+    transition-duration: .1s;
+    transition-timing-function: ease-out;
+    transition-property: box-shadow;
+}
+.py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.caps {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+button, .button {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 1.125rem;
+    padding: .5rem 1rem;
+    margin: 0;
+    height: auto;
+    vertical-align: middle;
+    -webkit-appearance: none;
+}
+.list-reset
+
+
+
 
 
 /*-------- Landing --------*/
