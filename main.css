@@ -102,7 +102,7 @@ ul {
 }
 .scroll {
 	position: absolute;
-	bottom: 190px;
+	bottom: 150px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -111,29 +111,44 @@ ul {
     border-radius: 45%;
     width: 80%;
 }
-
 .fa-github-square {
     color: #027BFF;
     font-size: 3em;
     text-align: center;
 }
-
-
 .fa-facebook {
     color: #027BFF;
     font-size: 3em;
     text-align: center;
 }
-
 .fa-linkedin {
     color: #027BFF;
     font-size: 3em;
     text-align: center;
 }
-
 .fa-envelope-square {
     color: #027BFF;
     font-size: 3em;
+    text-align: center;
+}
+.fa-home {
+    color: #027BFF;
+    font-size: 3em;
+    text-align: center;
+}
+.fa-briefcase {
+    color: #027BFF;
+    font-size: 1em;
+    text-align: center;
+}
+.fa-camera-retro {
+    color: #027BFF;
+    font-size: 1em;
+    text-align: center;
+}
+.fa-file {
+    color: #027BFF;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -141,17 +156,11 @@ a:hover, a h5:hover {
     text-decoration: none;
     color: #007199
 }
-
 a {
     text-decoration: none;
 }
-
 .valign-middle {
     vertical-align: middle;
-}
-
-.mb2 {
-    margin-bottom: .5rem;
 }
 
 
