@@ -249,7 +249,7 @@ a {
 }
 .project-title {
     text-align: left;
-    float: left;
+    float: center;
     margin-bottom: 5px;
 }
 
